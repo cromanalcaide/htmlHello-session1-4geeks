@@ -1,0 +1,141 @@
+body {
+    background-color: black;
+}
+
+.post {
+    margin-top: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    width: 35%;
+    height: 600px;
+    position: relative;
+}
+
+.postHeader {
+    margin-left: 10px;
+    width: 100%;
+    height: 50px;
+    right: 0px;
+    top: 0px;
+    display: flex;
+}
+
+.userName, .configShare {
+    height: 50px;
+}
+
+.userName {
+    display: flex;
+    width: 70%;
+}
+
+.userName > img {
+    padding-top: 2.5px;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+#nameLocation {
+    margin-left: 3px;
+    width: 100%;
+    display: flex;
+}
+
+#nameLocation > p {
+    padding-top: 1px;
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+.userName > p {
+    margin-left: 3px;
+    display: block;
+    padding-top: -10px;
+}
+
+.configShare {
+    width: 30%;
+}
+
+.configShare > img {
+    padding-top: 15px;
+    padding-right: 5px;
+    float: right;
+    height: 40px;
+    width: 40px;
+    transform: rotate(90deg);
+}
+
+.postImage > img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.postBody1 {
+    display: flex;
+    margin: auto;
+    width: 95%;
+}
+
+.postIcons, .postSave {
+    padding-top: 10px;
+    height: 50px;
+    margin: auto;
+}
+   
+.postIcons {
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.postSave {
+    width: 29%;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.postIcons > img {
+    width: 40px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: center;
+}
+
+.postSave > img {
+    width: 40px;
+    vertical-align: center;
+    float: right;
+}
+
+.postLikes {
+    display: block;
+    margin: auto;
+    width: 95%;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.postLikes > p {
+    padding-left: 3px;
+    margin: auto;
+    display: block;
+    width: 95%;
+    padding-left: 3px;
+    padding-right: -3px;
+}
+
+.postDescription > p {
+    margin: auto;
+    display: block;
+    height: 140px;
+    width: 95%;
+    padding-left: 3px;
+    padding-right: -3px;
+}
